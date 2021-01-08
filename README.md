@@ -1,12 +1,19 @@
 # Python-Logger
-A simple text printing to console but with different colors
+A simple logger to console but with different colors.
 
-For more detailed explanation refer to ```docs```
+## Usage
+```python
+Log.e("This is an error log having a red color.")
+```
 
-## Explanation
-* A simple logger that will print with different colors.
-* Android type Logging interface
-    - Log.e : error log (red color)
-    - Log.d : debug log (green color)
-    - Log.i : info log (blue color)
-    - Log.w : warning log (yellow color)
+```python
+Log.i("This is an info log having a blue color.")
+```
+
+```python
+Log.d("This is an debug log having a green color.")
+```
+
+```python
+Log.w("This is an warning log having a yellow color.")
+```
